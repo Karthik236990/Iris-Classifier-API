@@ -1,0 +1,24 @@
+# ---------------------------------------------------------------------------
+# Central configuration. Every script reads paths/params from here instead
+# of hardcoding them. Change values here to re-run the pipeline differently.
+# ---------------------------------------------------------------------------
+
+data:
+  raw_path: "data/raw/iris.csv"
+  processed_dir: "data/processed"
+  target_column: "species"
+  test_size: 0.2
+  random_state: 42
+
+model:
+  type: "random_forest"
+  params:
+    n_estimators: 200
+    max_depth: 5
+    random_state: 42
+  artifact_path: "models/model.pkl"
+  metrics_path: "models/metrics.json"
+
+api:
+  host: "0.0.0.0"
+  port: 8000
