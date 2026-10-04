@@ -1,4 +1,4 @@
-# 🌸 AI/ML Project — Iris Classifier
+#  AI/ML Project — Iris Classifier
 
 A **production-style end-to-end machine learning project** that demonstrates how to move from dataset → trained model → REST API → Docker → CI.
 
