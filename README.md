@@ -14,7 +14,7 @@ A **production-style end-to-end machine learning project** that demonstrates how
 * 🔄 GitHub Actions CI
 * 🛠️ Makefile for one-command execution
 
----
+
 
 ## 📁 Project Structure
 
